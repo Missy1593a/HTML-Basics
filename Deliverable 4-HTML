@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<link rel="StyleSheet" href="css/style.css"/>
+<body>
+
+<h2>Customer Information</h2>
+<p>Please input your first and last name into the fields below</p>
+
+<form action="/action_page.php">
+  <fieldset>
+    <legend>Enter Here: </legend>
+    First name:<br>
+    <input type="text" name="firstname">
+    <br>
+    Last name:<br>
+    <input type="text" name="lastname">
+    <br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+
+</body>
+</html>
